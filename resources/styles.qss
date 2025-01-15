@@ -1,0 +1,236 @@
+/* 基于显示屏分辨率1024*600进行设计 */
+
+QLabel {
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+QPushButton {
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+QPushButton:pressed {
+    border: 3px solid #B0B0B0;
+}  
+
+/* 产品信息页面 */
+QMainWindow#Product_Info_Window {
+    background-color: #00B8EE;
+}
+
+/* 产品信息页面 产品名字 */
+QLabel#product_name_label {
+    font-size: 36px;
+    padding: 4px 20px 6px;
+    border-radius: 31px;
+}
+
+/* 产品信息页面 公司logo */
+QLabel#logo_label {
+    background-color: transparent;
+    max-width: 90px;
+    max-height: 90px;
+}
+
+/* 产品信息页面 公司名字 */
+QLabel#company_name_label {
+    background-color: transparent;
+    font-size: 26px;  
+}
+
+/* 产品信息页面 软件版本 */
+QLabel#software_version_label {
+    background-color: transparent;
+    font-size: 24px;    
+}
+
+/* 产品信息页面 进入按钮 */
+QPushButton#enter_button {
+    background-color: white;  
+    height: 44px;
+    width: 140px;
+    border-radius: 22px; 
+    color: black;                
+    font-size: 28px;  
+}
+
+/* 主页面 */
+QMainWindow#Main_Window {
+    background-color: black;
+}
+
+/* 顶部状态栏背景 */
+QWidget#Top_Menu_Bar {
+    background-color: #0000FF;
+    max-height: 50;
+}
+
+/* 时间 label */
+QLabel#time_label {
+    background-color: #061367;
+    padding: 0px 30px 2px;
+    color: white; 
+    font-size: 24px;   
+    border-radius: 18px; 
+}
+
+/* 公网状态：暂不启用功能（透明化即可）  */
+QWidget#network_status_widget {
+    background-color: transparent;
+}
+QLabel#network_status_label {
+    background-color: transparent;
+    /* color: transparent;  */
+    color: white; 
+    font-size: 24px;    
+}
+
+/* 信号RSSI：暂不启用功能（透明化即可） */
+QWidget#RSSI_widget {
+    background-color: transparent;
+}
+QLabel#RSSI_label {
+    background-color: transparent;
+    /* color: transparent;  */
+    color: white; 
+    font-size: 24px;    
+}
+
+/* 设置按钮 */
+QPushButton#setting_button {
+    background-color: white;
+    padding: 0px 15px 2px;
+    color: black; 
+    font-size: 24px;    
+    border-radius: 18px; 
+    min-width: 75px;
+}
+
+/* 底部菜单栏背景 */
+QWidget#Bottom_Menu_Bar {
+    background-color: #00469D;
+    max-height: 50;
+}
+
+/* 底部菜单栏按钮 */
+QPushButton#visual_button {
+    padding: 0px 30px 2px;
+    color: white; 
+    font-size: 24px;    
+    border-radius: 18px; 
+    min-width: 135px;
+}
+
+/* 摄像头显示区域背景 */
+QWidget#Video_Display {
+    background-color: #00469D;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+}
+
+/* 摄像头显示区域的label */
+QLabel#cam_show_label {
+    background-color: #E0E0E0;
+    color: black; 
+    font-size: 24px;   
+}
+
+/* 摄像头控制参数的widget */
+QWidget#cam_contrller_widget {
+    background-color: transparent;
+    max-height: 40;
+}
+
+/* 摄像头每个控制参数的label */
+QLabel#cam_param_label {
+    background-color: transparent;
+    color: white; 
+    font-size: 24px; 
+}
+
+/* 摄像头每个控制参数的widget */
+QWidget#cam_param_widget {
+    background-color: transparent;
+}
+
+/* 水位信息背景 */
+QWidget#Water_Level_Info {
+    background-color: #0e6FB9;
+    padding: 10px 10px 10px 10px;
+    border-radius: 30px;
+}
+
+/* 水位信息的波浪logo */
+QLabel#wave_icon_label {
+    background-color: transparent;
+    max-width: 24px;
+    max-height: 24px;
+    padding: 5px 0px 0px 0px;
+}
+
+/* 水位信息标题的label */
+QLabel#water_level_title_label {
+    background-color: transparent;
+    color: white; 
+    font-size: 24px;  
+}
+
+/* 识别水位、 计算水位的 widget */
+QWidget#identify_and_calculate_widget {
+    background-color: white;
+    border-radius: 20px;
+    border: 4px solid #1995F5;
+    max-height: 36;
+}
+
+/* 识别水位、 计算水位的 label */
+QLabel#identify_and_calculate_left_label {
+    background-color: transparent;
+    padding: 0px 0px 0px 10px;
+    color: black; 
+    font-size: 24px;  
+}
+QLabel#identify_and_calculate_right_label {
+    background-color: transparent;
+    padding: 0px 10px 0px 0px;
+    color: black; 
+    font-size: 24px;  
+}
+
+/* 水位信息其他部分 */
+QWidget#other_info_widget {
+    background-color: #00469D;
+    border-radius: 30px;
+}
+
+/* 位信息其他部分的 widget */
+QWidget#other_info_label_widget {
+    max-height: 36;
+}
+
+/* 水位信息其他部分的 label */
+QLabel#other_info_left_label {
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+    color: white; 
+    font-size: 24px;  
+}
+QLabel#other_info_right_label {
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+    color: white; 
+    font-size: 24px;  
+}
+
+/* 手动抓拍按钮 */
+QPushButton#capture_manually_button {
+    background-color: #FFDA42;
+    color: black; 
+    font-size: 24px;    
+    border-radius: 17px; 
+    padding: 0px 0px 2px 0px;
+}
+QPushButton#capture_manually_button:pressed {
+    border: 3px solid #1995F5;
+}
